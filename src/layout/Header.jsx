@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/layout/header.scss';
 
 const Header = () => {
 
-  const navLink = (title, to) => {
+  const navLink = useCallback((title, to) => {
     return (
       <Link
         className="nav-link white capitalize"
@@ -13,7 +13,8 @@ const Header = () => {
         {title}
       </Link>
     )
-  }
+  }, [])
+
   return (
     <div className='container-header'>
       <h2 className="title-header flex white mb-1 capitalize">

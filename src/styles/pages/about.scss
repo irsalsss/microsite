@@ -26,25 +26,6 @@
     grid-template-columns: auto auto;
     gap: 4rem;
   }
-
-  .title-about {
-    font-size: 36px;
-    margin-bottom: 2rem;
-  }
-
-  .desc-about {
-    font-size: 16px;
-  }
-
-  @media only screen and (max-width: 576px) {
-    .title-about {
-      font-size: 20px;
-    }
-
-    .desc-about {
-      font-size: 14px;
-    }
-  }
 }
 
 @media only screen and (max-width: 480px) {
