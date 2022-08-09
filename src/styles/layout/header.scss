@@ -8,9 +8,10 @@
 
   .title-header {
     justify-content: start;
+    font-size: 36px;
   }
 
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 480px) {
     .wrapper-nav {
       justify-content: center;
     }

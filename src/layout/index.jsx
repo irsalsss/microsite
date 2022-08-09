@@ -3,7 +3,7 @@ import Header from './Header';
 import '../styles/index.scss';
 
 const Layout = () => (
-  <div id="layout" className="flex flex-col">
+  <div id="layout" className="flex flex-col w-full">
     <Header />
     <Outlet />
   </div>

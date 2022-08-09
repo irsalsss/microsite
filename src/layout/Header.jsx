@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.scss';
+import '../styles/layout/header.scss';
 
 const Header = () => {
 
   const navLink = (title, to) => {
     return (
       <Link
-        className="nav-link white"
+        className="nav-link white capitalize"
         to={to}
       >
         {title}
@@ -16,13 +16,13 @@ const Header = () => {
   }
   return (
     <div className='container-header'>
-      <h2 className="title-header flex white mb-1">
-        Website Test
+      <h2 className="title-header flex white mb-1 capitalize">
+        website test
       </h2>
       <nav className='wrapper-nav flex gap-1'>
-        {navLink('Homepage', '/')}
-        {navLink('About', 'about')}
-        {navLink('Contact', 'contact')}
+        {navLink('homepage', '/')}
+        {navLink('about', 'about')}
+        {navLink('contact', 'contact')}
       </nav>
     </div>
   )
