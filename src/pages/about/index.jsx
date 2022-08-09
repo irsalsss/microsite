@@ -20,11 +20,11 @@ const About = () => {
 
   return (
     <div className='container-about'>
-      <div className='wrapper-left'>
+      <div className='wrapper-left items-center bg-yellow'>
         {titleContent('about 1')}
         {loremIpsumcContent}
       </div>
-      <div className='wrapper-right'>
+      <div className='wrapper-right items-center bg-grey'>
         {titleContent('about 2')}
         <div className='flex flex-1 items-center'>
           <div className='wrapper-right-content'>

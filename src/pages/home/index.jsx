@@ -12,7 +12,7 @@ const Home = () => {
       </div>
       <About />
       <div className='flex w-full'>
-        <div className='flex flex-col items-center w-30-percent p-1'>
+        <div className='wrapper-left items-center'>
           <label
             className='capitalize mb-4-px'
             for="telp"
@@ -24,7 +24,7 @@ const Home = () => {
             Go
           </button>
         </div>
-        <div className='w-70-percent'>
+        <div className='wrapper-right'>
           <Contact />
         </div>
       </div>
