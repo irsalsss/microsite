@@ -4,7 +4,7 @@ import '../../styles/pages/section-about.scss';
 const AboutSection = () => {
   const loremIpsumcContent = useMemo(() => {
     return (
-      <p className='desc-container flex flex-1 items-center white'>
+      <p className='text-desc flex flex-1 items-center white'>
         Lorem ipsum dolor sit amet. Qui molestiae beatae et perferendis odit qui perferendis maiores sit consequatur voluptas. Qui omnis iure aut autem sint est molestias assumenda. At quasi itaque id omnis distinctio nam explicabo odio et amet blanditiis est laboriosam tempore.
       </p>
     )

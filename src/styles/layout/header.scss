@@ -24,6 +24,12 @@
     }
   }
 
+  @media only screen and (min-width: 1441px) {
+    .title-header {
+      font-size: 72px;
+    }
+  }
+
   .nav-link::after {
     content: "|";
     margin-left: 8px;

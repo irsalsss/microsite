@@ -19,7 +19,7 @@ const TelephoneSection = () => {
   return (
     <>
       <label
-        className='capitalize mb-4-px'
+        className='text-desc capitalize'
         htmlFor="telp"
       >
         no telp
@@ -30,9 +30,10 @@ const TelephoneSection = () => {
         type="text"
         value={value}
         onChange={onChange}
+        className="std-input"
       />
       <button
-        className='px-8-px py-4-px rounded-4-px border-black white bg-black cursor-pointer mt-1'
+        className='text-desc std-button'
         onClick={onSubmit}
       >
         Go

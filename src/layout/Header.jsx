@@ -7,7 +7,7 @@ const Header = () => {
   const navLink = useCallback((title, to) => {
     return (
       <Link
-        className="nav-link white capitalize"
+        className="nav-link text-desc white capitalize"
         to={to}
       >
         {title}
