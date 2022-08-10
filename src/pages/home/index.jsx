@@ -1,6 +1,6 @@
 import React from 'react';
-import About from '../about';
-import Contact from '../contact';
+import AboutSection from '../about/AboutSection';
+import ContactSection from '../contact/ContactSection';
 
 const Home = () => {
   return (
@@ -10,22 +10,24 @@ const Home = () => {
           this is homepage
         </h2>
       </div>
-      <About />
+      <AboutSection />
       <div className='flex w-full'>
         <div className='wrapper-left items-center'>
           <label
             className='capitalize mb-4-px'
-            for="telp"
+            htmlFor="telp"
           >
             no telp
           </label>
           <input id="telp" name="telp" type="text" />
-          <button className='white bg-black cursor-pointer mt-1'>
+          <button
+            className='px-8-px py-4-px rounded-4-px border-black white bg-black cursor-pointer mt-1'
+          >
             Go
           </button>
         </div>
         <div className='wrapper-right'>
-          <Contact />
+          <ContactSection />
         </div>
       </div>
     </div>

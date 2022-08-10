@@ -1,6 +1,9 @@
 .container-header {
+  position: sticky;
+  top: 0;
   background-image: linear-gradient(#1AA7EC, #4ADEDE);
   padding: 1rem;
+  width: 100%;
 
   .wrapper-nav {
     justify-content: end;

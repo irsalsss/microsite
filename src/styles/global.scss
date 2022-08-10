@@ -70,6 +70,20 @@
   padding: 1rem;
 }
 
+.py-4-px {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.px-8-px {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.rounded-4-px {
+  border-radius: 4px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -130,4 +144,8 @@
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.border-black {
+  border: 1px solid black;
 }
