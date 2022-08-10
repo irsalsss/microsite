@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutSection from '../about/AboutSection';
 import ContactSection from '../contact/ContactSection';
+import TelephoneSection from './TelephoneSection';
 
 const Home = () => {
   return (
@@ -13,18 +14,7 @@ const Home = () => {
       <AboutSection />
       <div className='flex w-full'>
         <div className='wrapper-left items-center'>
-          <label
-            className='capitalize mb-4-px'
-            htmlFor="telp"
-          >
-            no telp
-          </label>
-          <input id="telp" name="telp" type="text" />
-          <button
-            className='px-8-px py-4-px rounded-4-px border-black white bg-black cursor-pointer mt-1'
-          >
-            Go
-          </button>
+          <TelephoneSection />
         </div>
         <div className='wrapper-right'>
           <ContactSection />

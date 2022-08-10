@@ -1,4 +1,5 @@
 import React, { useCallback, useMemo } from 'react';
+import '../../styles/pages/section-about.scss';
 
 const AboutSection = () => {
   const loremIpsumcContent = useMemo(() => {
@@ -18,7 +19,7 @@ const AboutSection = () => {
   }, [])
 
   return (
-    <div className='container-about'>
+    <div className='section-about'>
       <div className='wrapper-left items-center bg-yellow'>
         {titleContent('about 1')}
         {loremIpsumcContent}
